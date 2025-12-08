@@ -1,9 +1,9 @@
 <html>
-<h3>TESTING V2</h3>
+<h3>TESTING V3</h3>
 <script src="https://winnebago--uat.sandbox.my.site.com/lightning/lightning.out.js"></script>
 
 <div id="lightningOutDisplay" data-lightning-out="true"></div>
-
+<!--
 <script>
     const appName2 = "c:VehicleRecallLightningOutWrapper";
     const componentName2 = "c:vinLookupLightningOutComponent";
@@ -23,12 +23,11 @@
         },
         lightningEndpoint2
     );
-</script>
+</script>-->
 <script>
     const appName = "c:VehicleRecallLightningOutWrapper";
     const componentName = "c:vinLookupLightningOutComponent";
     const lightningEndpoint = "https://winnebago--uat.sandbox.my.site.com/Resources";
-    const targetElement = document.querySelector("[data-lightning-out]");
     const componentAttributes = {};
 
      $Lightning.use(appName, function() {
